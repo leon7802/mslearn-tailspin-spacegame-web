@@ -22,8 +22,8 @@ namespace TailSpin.SpaceGame.Web.Controllers
             )
         {
             _scoreRepository = scoreRepository;
-            _profileRespository = profileRespository;
-            var JustTestPipeline = 2;
+            _profileRespository = profileRespository;           
+
         }
 
         public async Task<IActionResult> Index(
